@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="284.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="organizer.controllers.DeserializedEventsController">
+   <children>
+      <Label layoutX="112.0" layoutY="23.0" prefHeight="32.0" prefWidth="226.0" text="Deserialized from XML">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ListView fx:id="deserializedList" layoutX="14.0" layoutY="70.0" prefHeight="200.0" prefWidth="421.0" />
+   </children>
+</AnchorPane>

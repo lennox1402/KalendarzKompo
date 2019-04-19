@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="228.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="organizer.controllers.EditEvent2Controller">
+   <children>
+      <Button fx:id="editButton" layoutX="109.0" layoutY="161.0" mnemonicParsing="false" onAction="#editClicked" prefHeight="38.0" prefWidth="101.0" text="Edit" />
+      <Label layoutX="35.0" layoutY="36.0" prefHeight="17.0" prefWidth="89.0" text="editing options:" />
+      <ChoiceBox fx:id="optionsBox" layoutX="154.0" layoutY="32.0" prefHeight="25.0" prefWidth="130.0" />
+      <TextField fx:id="option" layoutX="35.0" layoutY="83.0" prefHeight="61.0" prefWidth="249.0" />
+   </children>
+</AnchorPane>
